@@ -2,7 +2,7 @@
 
 大家好，我是 Will 保哥，我之前開了三堂關於 GitHub Copilot 的課程，為了這些課程，我精心準備了許多 GitHub Copilot 的應用技巧。為了更好的應用這些 GitHub Copilot 這個好用工具，我測試了幾乎所有 GitHub Copilot 的選項設定，這個 Repo 就是用來整理我認為的 GitHub Copilot **最佳設定**，讓學員們能夠在課程中更輕鬆的使用 GitHub Copilot！👍
 
-由於課程內容非常豐富，如果沒有報名過我的課程，強烈建議大家可以可以購買課程的錄影回放，這樣就能夠更深入的了解 GitHub Copilot 的使用方式與技巧。
+由於課程內容非常豐富，如果沒有報名過我的課程，強烈建議大家可以購買課程的錄影回放，這樣就能夠更深入的了解 GitHub Copilot 的使用方式與技巧。
 
 1. 入門課：適合從未使用過 GitHub Copilot 的新手
 
@@ -16,7 +16,7 @@
 
     [全面掌握 GitHub Copilot 代理人模式：打造專屬 AI 開發助手](https://learn.duotify.com/courses/gh-copilot-agent)
 
-如果你不知道自己適合哪一堂課，我的建議疑慮是都買回去看就對了，因為這三堂課的內容是相輔相成的，內容很少有重疊，這樣你就能夠更深入的了解 GitHub Copilot 的使用方式與技巧。
+如果你不知道自己適合哪一堂課，我的建議一律是都買回去看就對了，因為這三堂課的內容是相輔相成的，內容很少有重疊，這樣你就能夠更深入的了解 GitHub Copilot 的使用方式與技巧。
 
 1. [GitHub Copilot 完整課程 (共三堂)](https://learn.duotify.com/courses/gh-copilot-all)
 
