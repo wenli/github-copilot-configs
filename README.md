@@ -105,6 +105,12 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         設定在**所有檔案**啟用 GitHub Copilot 功能，但停用「**純文字**」檔案類型。
 
+      * `github.copilot.selectedCompletionModel` 設定為 `gpt-4o-copilot`
+
+        GitHub Copilot 預設自動補全的模型為 `copilot-codex` (GPT-3.5 Turbo)，相較於今日的 GPT-4o 來說，相對比較弱。最近的 Insiders 增加了 `github.copilot.selectedCompletionModel` 選項設定，可以讓你調整為更聰明的 `gpt-4o-copilot` 模型。
+        
+        > 你也可以用 `F1` > `GitHub Copilot: Change Completion Model` 選擇。
+
       * `github.copilot.editor.enableAutoCompletions` 設定為 `true`
 
         啟用程式碼自動補全功能，也就是 Inline 自動完成功能。
@@ -347,6 +353,12 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
       * `accessibility.voice.ignoreCodeBlocks` 設定為 `true` (Insiders)
 
         避免在合成語音的時候去讀程式碼區塊的內容
+
+    * Live Preview
+
+      * `livePreview.autoRefreshPreview` 設定為 `On Changes to Saved Files`
+
+        在使用 [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) 擴充套件的時候，這個選項的預設值為 `On All Changes in Editor`，這意味著在 Copilot 生成程式碼的過程當中，會不斷地更新 Live Preview 網頁內容，預覽時可能會看到生成到一半的畫面，容易出現許多錯誤。若將選項值調整為 `On Changes to Saved Files` 就可以等到檔案儲存時才會更新預覽的網頁。
 
 2. 鍵盤設定
 
