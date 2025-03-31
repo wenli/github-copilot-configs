@@ -344,7 +344,16 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
             "cursor-workspace": false
         }
         ```
-        
+
+      * `mcp` 用來註冊 MCP 伺服器的啟動資訊：
+
+        ```json
+        "mcp": {
+          "servers": {
+          }
+        },
+        ```
+
     * **Accessibility** (Voice)
 
       * `accessibility.voice.speechLanguage` 設定為 `zh-TW`

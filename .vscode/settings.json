@@ -123,6 +123,10 @@
         "cursor-global": false,
         "cursor-workspace": false
     },
+    "mcp": {
+        "servers": {
+        }
+    },
 
     // Accessibility
     "accessibility.voice.speechLanguage": "zh-TW",
