@@ -330,6 +330,21 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         這個選項的用途，主要是讓你可以在 GitHub Copilot Chat 呼叫 `.vscode/tasks.json` 定義的 Task 來執行。
 
+      * `chat.mcp.enabled` 設定為 `true`
+
+        啟用 GitHub Copilot 的 MCP (Model Context Protocol) 支援。
+
+      * `chat.mcp.discovery.enabled` 設定為以下 JSON 內容，預設關閉其他 MCP Host 的伺服器註冊資訊：
+
+        ```json
+        "chat.mcp.discovery.enabled": {
+            "claude-desktop": false,
+            "windsurf": false,
+            "cursor-global": false,
+            "cursor-workspace": false
+        }
+        ```
+        
     * **Accessibility** (Voice)
 
       * `accessibility.voice.speechLanguage` 設定為 `zh-TW`

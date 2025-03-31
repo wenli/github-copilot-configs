@@ -116,6 +116,14 @@
     "github.copilot.chat.newWorkspaceCreation.enabled": true,
     "terminal.integrated.scrollback": 50000, // Agent Mode 建議調高預設 Terminal 的捲軸行數
 
+    "chat.mcp.enabled": true,
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": false,
+        "windsurf": false,
+        "cursor-global": false,
+        "cursor-workspace": false
+    },
+
     // Accessibility
     "accessibility.voice.speechLanguage": "zh-TW",
     "accessibility.voice.autoSynthesize": "off",
