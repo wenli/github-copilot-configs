@@ -29,6 +29,7 @@
     "workbench.commandPalette.experimental.askChatLocation": "chatView",
     "github.copilot.chat.search.semanticTextResults": true,
     "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.inlineSuggest.edits.showCollapsed": true,
 
     // GitHub Copilot Chat
     "github.copilot.chat.followUps": "always",

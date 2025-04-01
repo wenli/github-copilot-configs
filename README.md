@@ -147,6 +147,10 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         > NES = Next Edit Suggestions
 
+      * `editor.inlineSuggest.edits.showCollapsed` 設定為 `true`
+
+        在啟用**下一個編輯建議**(NES)功能之後，編輯器會經常提醒你要不要按下 Tab 貼上建議的程式碼。但是預設這些建議都會直接在編輯器上占空間，有時候非常干擾我們的開發心流，所以我個人建議將這個設定調整為 `true`，他就不會一直跳出來顯示你要按下 Tab 會被加入的內容了。
+
     * **GitHub Copilot Chat**
 
       * `github.copilot.chat.followUps` 設定為 `firstOnly` 或 `always`
