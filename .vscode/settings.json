@@ -133,7 +133,8 @@
     // Accessibility
     "accessibility.voice.speechLanguage": "zh-TW",
     "accessibility.voice.autoSynthesize": "off",
-    "accessibility.voice.keywordActivation": "chatInContext",
+    // accessibility.voice.keywordActivation 預設為 off，習慣用語音輸入可以改為 chatInContext
+    // "accessibility.voice.keywordActivation": "chatInContext",
     "accessibility.voice.speechTimeout": 1200,
     "accessibility.voice.ignoreCodeBlocks": true,
 
