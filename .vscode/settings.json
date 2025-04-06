@@ -118,12 +118,13 @@
     "terminal.integrated.scrollback": 50000, // Agent Mode 建議調高預設 Terminal 的捲軸行數
 
     "chat.mcp.enabled": true,
-    "chat.mcp.discovery.enabled": {
-        "claude-desktop": false,
-        "windsurf": false,
-        "cursor-global": false,
-        "cursor-workspace": false
-    },
+    "chat.mcp.discovery.enabled": false,
+    // "chat.mcp.discovery.enabled": {
+    //     "claude-desktop": false,
+    //     "windsurf": false,
+    //     "cursor-global": false,
+    //     "cursor-workspace": false
+    // },
     "mcp": {
         "servers": {
         }
