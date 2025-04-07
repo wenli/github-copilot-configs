@@ -90,7 +90,7 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
 ![Visual Studio Code 開啟設定(JSON)](images/vscode-settings-json.jpg)
 
-以下兩個檔案我已經整理在 Repo 之中，可以直接下載回去使用：
+💡 以下兩個檔案我已經整理在 Repo 之中，可以直接下載回去使用：
 
 1. [.vscode/settings.json](.vscode/settings.json)
 2. [.vscode/keybindings.json](.vscode/keybindings.json)
