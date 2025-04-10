@@ -26,7 +26,9 @@
 
 ## 安裝 GitHub 支援的開發工具
 
-目前 GitHub Copilot 的 `Agent Mode` 僅支援 [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/) 開發工具，請安裝 Insiders 最新版本。
+目前 GitHub Copilot 的 `Agent Mode` 已在 [Visual Studio Code](https://code.visualstudio.com/) `v1.99` 之後的版本提供。
+
+我個人還是建議安裝 [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/) 開發工具，因為有些功能可能僅在 Insiders 版本中可用，並且會隨著新功能的發布而更新。
 
 ![Visual Studio Code Insiders](images/vscode-insiders.png)
 
