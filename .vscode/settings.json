@@ -15,6 +15,7 @@
     },
     "chat.editing.confirmEditRequestRemoval": true,
     "chat.editing.confirmEditRequestRetry": true,
+    "telemetry.telemetryLevel": "off",
 
     // ***************************************************
     // 以下設定適用於 User Settings 或 Workspace Settings
