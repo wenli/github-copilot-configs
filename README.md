@@ -354,6 +354,10 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
         },
         ```
 
+      * `telemetry.telemetryLevel` 設定為 `off`
+
+        設定此選項可以避免 Agent Mode 無法啟用的問題。請注意，在更改此設定後，您需要重新啟動 Visual Studio Code 以使更改生效。
+
     * **Accessibility** (Voice)
 
       * `accessibility.voice.speechLanguage` 設定為 `zh-TW`
