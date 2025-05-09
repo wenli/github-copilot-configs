@@ -36,7 +36,7 @@
     "github.copilot.chat.localeOverride": "zh-TW",
     "github.copilot.chat.useProjectTemplates": true,
     "github.copilot.chat.scopeSelection": true,
-    "chat.detectParticipant.enabled": true,
+    "chat.detectParticipant.enabled": false,
     "chat.promptFiles": true,
     "chat.promptFilesLocations": {
         ".github/prompts": true
