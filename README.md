@@ -388,11 +388,11 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         代表你在說 `Hey Code` 時會在 Copilot 聊天視窗互動。可設定 `off` 關閉此功能。
 
-      * `accessibility.voice.speechTimeout` 設定為 `1200`
+      * `accessibility.voice.speechTimeout` 設定為 `10000`
 
-        設定語音輸入後可停頓的時間為 1200 毫秒。
+        設定語音輸入後可停頓的時間為 10000 毫秒。
 
-        有些人講話比較慢，一句話講到一半會想很久，這時就要調高一點，不然只要停頓 1.2 秒就送出了！
+        有些人講話比較慢，一句話講到一半會想很久，這時就要調高一點，不然預設只要停頓 1.2 秒就送出了！現在調整為 10 秒讓你想個夠，講話結巴也沒問題。重點是，你講完話之後，直接按個 Enter 也能送出！
 
       * `accessibility.voice.ignoreCodeBlocks` 設定為 `true` (Insiders)
 
