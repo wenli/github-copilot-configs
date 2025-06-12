@@ -324,9 +324,9 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         即便是 Visual Studio Code Insiders 版本，預設 Agent Mode 也是沒有啟用的，你必須手動啟用這個選項，才可以看見 Copilot Edit 中的功能。
 
-      * `chat.agent.maxRequests` 設定為 `50`
+      * `chat.agent.maxRequests` 設定為 `100`
 
-        預設 Agent Mode 在讓 Agent 自動作業的時候，預設只有 `15` 次迭代，對於一些比較複雜的工作，可能會需要你不斷的確認是否繼續。建議可以調高到 `50` 即可。也建議不要調的更多，因為設定更高時，複雜工作一樣不會表現的更好。
+        預設 Agent Mode 在讓 Agent 自動作業的時候，預設只有 `15` 次迭代，對於一些比較複雜的工作，可能會需要你不斷的確認是否繼續。建議可以調高到 `100`，避免有時候量比較多就超標了。100 要超標就很有難度了。
 
       * `github.copilot.chat.codesearch.enabled` 設定為 `true` (預覽功能)
 
