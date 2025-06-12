@@ -181,6 +181,22 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         詳見 [Reusable prompt files (experimental)](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental)
 
+      * `chat.promptFilesLocations` 設定指定多個 prompt 檔案資料夾 (實驗性功能)
+
+        可指定多個 prompt 檔案資料夾位置，讓您能夠組織和管理不同類型的提示檔案。
+
+        ```json
+        "chat.promptFilesLocations": {
+            ".github/personal": true
+        },
+        ```
+
+        注意：`.github/prompts` 資料夾已預設包含，無需額外設定。
+
+        建議搭配 `.gitignore` 檔案排除個人化的 prompt 資料夾（如 `.github/personal`），避免將個人提示檔案提交到版本控制系統中。
+
+        詳見 [Prompt files (experimental) settings](https://code.visualstudio.com/docs/copilot/copilot-customization#_prompt-files-experimental-settings)
+
       * `github.copilot.chat.languageContext.typescript.enabled` 設定為 `true` (實驗性功能)
 
         在 Inline Chat 與 Inline Completion 啟用自動向 TypeScript Language Service 取用 Context 資訊的能力，以獲取更多附加額外的上下文。
