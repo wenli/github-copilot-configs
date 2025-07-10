@@ -493,6 +493,43 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 6. [GitHub Copilot in Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview)
 7. [GitHub Copilot Issues](https://github.com/microsoft/vscode-copilot-release/issues) (專門用來回報問題的地方)
 
+## 自動同步的 GitHub Copilot 檔案
+
+本 Repository 會每天自動從 [Awesome GitHub Copilot Customizations](https://github.com/github/awesome-copilot) 專案同步以下內容：
+
+- **chatmodes/**: GitHub Copilot 聊天模式設定檔 (30+ 個檔案)
+- **instructions/**: GitHub Copilot 指令檔案 (35+ 個檔案)  
+- **prompts/**: GitHub Copilot 提示檔案 (40+ 個檔案)
+
+這些檔案包含了各種專業領域的 GitHub Copilot 自訂設定，如：
+
+### 聊天模式 (chatmodes)
+- Azure 架構師模式
+- 除錯模式
+- 專家級軟體工程師模式
+- 程式碼清潔工模式
+- 實作計畫模式
+- 以及更多專業模式...
+
+### 指令檔案 (instructions)
+- Angular 開發指引
+- .NET/C# 最佳實務
+- Docker 容器化指引
+- Kubernetes 部署指引
+- 安全開發指引
+- 以及更多技術指引...
+
+### 提示檔案 (prompts)
+- 建立架構決策記錄
+- 產生測試程式碼
+- 建立技術文件
+- 程式碼審查提示
+- 以及更多實用提示...
+
+> 📝 **使用說明**: 詳細的使用方法請參考 [SYNC_README.md](SYNC_README.md)
+
+> ⏰ **同步時間**: 每天 UTC 00:00 (台北時間早上 8:00) 自動同步
+
 ## 歡迎貢獻
 
 如果你有任何建議或是發現錯誤，歡迎隨時在 GitHub 上面開 Issue 提問，也歡迎大家幫忙發 Pull Request 讓這份文件變的更好！👍
