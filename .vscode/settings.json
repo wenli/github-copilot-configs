@@ -28,7 +28,7 @@
     "github.copilot.editor.enableCodeActions": true,
     "github.copilot.renameSuggestions.triggerAutomatically": true,
     "workbench.commandPalette.experimental.askChatLocation": "chatView",
-    "github.copilot.chat.search.semanticTextResults": true,
+    "search.searchView.semanticSearchBehavior": "runOnEmpty",
     "github.copilot.nextEditSuggestions.enabled": true,
     "editor.inlineSuggest.edits.showCollapsed": true,
 
@@ -137,5 +137,5 @@
     "accessibility.voice.ignoreCodeBlocks": true,
 
     // Live Preview
-    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+    "livePreview.autoRefreshPreview": "On Changes to Saved Files"
 }
