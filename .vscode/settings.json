@@ -39,9 +39,6 @@
     "github.copilot.chat.scopeSelection": true,
     "chat.detectParticipant.enabled": false,
     "chat.promptFiles": true,
-    "chat.promptFilesLocations": {
-        ".github/prompts": true
-    },
     "github.copilot.chat.languageContext.typescript.enabled": true,
     "github.copilot.chat.agent.thinkingTool": true,
     // GitHub Copilot Chat - 內嵌聊天 (Inline Chat)
