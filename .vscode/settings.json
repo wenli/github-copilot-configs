@@ -33,7 +33,6 @@
     "editor.inlineSuggest.edits.showCollapsed": true,
 
     // GitHub Copilot Chat
-    "github.copilot.chat.followUps": "always",
     "github.copilot.chat.localeOverride": "zh-TW",
     "github.copilot.chat.useProjectTemplates": true,
     "github.copilot.chat.scopeSelection": true,

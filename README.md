@@ -149,10 +149,6 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
     * **GitHub Copilot Chat**
 
-      * `github.copilot.chat.followUps` 設定為 `firstOnly` 或 `always`
-
-        是否要在聊天中建議跟進訊息，提供你**下一個提示**的建議。
-
       * `github.copilot.chat.localeOverride` 設定為 `zh-TW`
 
         設定 GitHub Copilot Chat 的回應語言預設為**繁體中文**
