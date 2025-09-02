@@ -200,6 +200,14 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         在 Inline Chat 與 Inline Completion 啟用自動向 TypeScript Language Service 取用 Context 資訊的能力，以獲取更多附加額外的上下文。
 
+      * `github.copilot.chat.languageContext.fix.typescript.enabled` 設定為 `true` (實驗性功能)
+
+        在程式碼修復功能中啟用自動向 TypeScript Language Service 取用 Context 資訊的能力，以獲取更多附加額外的上下文。
+
+      * `github.copilot.chat.languageContext.inline.typescript.enabled` 設定為 `true` (實驗性功能)
+
+        在內嵌編輯功能中啟用自動向 TypeScript Language Service 取用 Context 資訊的能力，以獲取更多附加額外的上下文。
+
       * `github.copilot.chat.agent.thinkingTool` 設定為 `true`
 
         啟用這個思考工具設定，能讓 Copilot 能夠在代理模式下深入思考您的請求，然後再生成回應。
