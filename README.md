@@ -133,9 +133,12 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         當你按下 `F1` 之後詢問 `Ask GitHub Copilot` 的結果要顯示在哪裡，選 `chatView` 就會留下提問記錄，若選 `quickChat` 就不會留下。
 
-      * `github.copilot.chat.search.semanticTextResults` 設定為 `true`
+      * `search.searchView.semanticSearchBehavior` 設定為 `runOnEmpty`
 
-        在**搜尋檢視**中啟用**語意搜尋結果**。
+        在**搜尋檢視**中設定**語意搜尋行為**。可設定值有：
+        - `auto`: 無論有沒有搜尋到東西，都會自動啟動「使用 AI 搜尋」功能
+        - `manual` (預設值): 搜尋不到東西時，會出現「使用 AI 搜尋」的連結按鈕，需手動點擊啟動
+        - `runOnEmpty`: 搜尋不到東西時，會自動啟動「使用 AI 搜尋」功能
 
       * `github.copilot.nextEditSuggestions.enabled` 設定為 `true` (預覽功能)
 
@@ -332,7 +335,7 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         這個選項用來啟用 `#codebase` 變數的「代理人」原始碼搜尋功能。
 
-        傳統**一般搜尋**主要是透過**關鍵字比對**，搭配 `github.copilot.chat.search.semanticTextResults` 設定為 `true` 可以啟用搜尋時做**語意比對**，但在 GitHub Copilot Chat 聊天時，如果要透過 `#codebase` 變數找檔案，之前就只能做一次性的比對。
+        傳統**一般搜尋**主要是透過**關鍵字比對**，搭配 `search.searchView.semanticSearchBehavior` 設定為 `runOnEmpty` 可以啟用搜尋時做**語意比對**，但在 GitHub Copilot Chat 聊天時，如果要透過 `#codebase` 變數找檔案，之前就只能做一次性的比對。
 
         當啟用了 `github.copilot.chat.codesearch.enabled` 設定後，就不會只搜尋一次，而是會多嘗試幾種不同的搜尋條件，幫你更好的找到需要的程式碼！👍
 
