@@ -137,9 +137,9 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
         在**搜尋檢視**中啟用**語意搜尋結果**。
 
-      * `github.copilot.nextEditSuggestions.enabled` 設定為 `true` (預覽功能)
+      * `github.copilot.nextEditSuggestions.enabled` 設定為 `true`
 
-        在編輯器中啟用**下一個編輯建議**(NES)功能。
+        在編輯器中啟用**下一個編輯建議**(NES)功能。深入瞭解 [Next Edit Suggestions](https://code.visualstudio.com/docs/copilot/ai-powered-suggestions#_next-edit-suggestions)。
 
         > NES = Next Edit Suggestions
 
